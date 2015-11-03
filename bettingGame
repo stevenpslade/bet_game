@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="bettingGame.css" type="text/css">
+  </head>
+  <body>
+    <div id="container">
+      <span id="goodbye">GOODBYE</span>
+      <h1>Place your bet:</h1>
+      <form id='myForm'>
+        <input type="text" placeholder="$" name="user_bet" id="user_bet">
+        <input type="text" placeholder="__" name="user_guess" id="user_guess">
+        <input type="text" placeholder="?" name="play_again" id="play_again">
+      <form>
+    </div>
+    <footer>
+      <p>Bank: $<span class="amount">100</span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="application.js"></script>
+  </body>
+</html>
